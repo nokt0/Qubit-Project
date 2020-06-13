@@ -33,9 +33,6 @@ namespace Qubit_Project
 
             int res = MathNet.Numerics.Distributions.Bernoulli.Sample(prob);
             return 1 - res;
-            //if (Math.Abs(prob - 1) < MinM)
-            //return "Function is CONSTANT " + prob * 100 + "%";
-            //return "Funcion is not CONSTANT " + prob * 100 + "%";
         }
     }
 }
